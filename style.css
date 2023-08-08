@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    min-height: 15vh;
+    background-color: #fff;
+}
+
+header #links{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header #links li{
+    list-style: none;
+}
+
+header #links li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: "Courier New", Courier, monospace;
+}
+
+header #links li:hover a{
+    color: rgb(201, 160, 127);
+}
+
+input[type="search"]{
+    padding: 10px 25px;
+    width: 50%;
+    margin: 5px 0px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(201, 160, 127);
+}
+
+.submit{
+    width: 100px;
+    height: 35px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(201, 160, 127);
+    cursor: pointer;
+}
+
+/* section1 */
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height:min-content;
+}
+
+.container .content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.container .content details{
+    width: 55%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .content .details button{
+    width: 180px;
+    height: 40px;
+    margin: 25px 0px 10px 160px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 10px;
+    background-color: rgb(201, 160, 127);
+    cursor: pointer;
+    border: 2p solid pink;
+}
+
+.container .content h3{
+    font-size: 25px;
+    color: #444;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container .content p{
+    font-size: 15px;
+    color: #444;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 20px;
+}
+
+.container .content h1{
+    font-size: 35px;
+    color: #444;
+    margin: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* section 2*/
+
+.section2{
+    padding-left: 23px;
+    padding-right: 23px;
+    width: 100%;
+    height: 800px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url("beans.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height:min-content;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.section2 h1{
+    font-size: 2rem;
+}
+
+.info{
+    
+    margin: 100px 0px 0px 600px;
+    text-align: center;
+}
+
+.about{
+    margin: 80px 0px 0px 600px;
+    text-align: center;
+}
+
+/*section 3 */
+
+.section3{
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: 40px 0px 60px 0px;
+    width: 100%;
+    height: 800px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height:min-content;
+}
+
+.sections3 h1{
+    margin: 00px 0px 0px 600px;
+    font-size: 2rem;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.new-arrivals{
+    text-align: center;
+    margin: auto;
+}
+
+.box{
+    margin: 30px 30px;
+    justify-items: center;
+    min-width: 20vw;
+    min-height: 300px;
+    border: 2px solid rgb(201, 160, 127);
+    text-align: center;
+    box-shadow: 2px 2px 20px rgb(181, 156, 156);
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.box ul li button{
+    width: 100px;
+    height: 35px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(201, 160, 127);
+    cursor: pointer;
+}
+
+.section3-h2{
+    font-size: medium;
+    margin: 4px 2px;
+}
+
+.img1{
+    width: 18vw;
+    min-height: 400px;
+}
+
+.img2{
+    width: 18vw;
+    min-height: 400px;
+}
+
+.img3{
+    width: 18vw;
+    min-height: 400px;
+}
+
+.img4{
+    width: 18vw;
+    min-height: 50px;
+}
+
+/*section4*/
+
+.section4{
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: 40px 0px 60px 0px;
+    width: 100%;
+    height: 500px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height:min-content;
+}
+
+.section4 h1{
+    margin: 40px 0px 0px 700px;
+    font-size: 2rem;
+}
+
+#bev{
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px 40px 20px 200px;
+}
+
+#bev td, #bev th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#bev tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#bev tr:hover{
+    background-color: #ddd
+}
+
+#bev th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: rgb(201, 160, 127);
+    color: white;
+}
+
+.see-more{
+    width: 100px;
+    height: 35px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    color: black;
+    margin-left: 87%;
+    background-color: rgb(201, 160, 127);
+    cursor: pointer;
+}
+
+.section4 div:hover button{
+    background-color: #ddd;
+}
+
+/*section 5*/
+
+.section5{
+    padding-left: 23px;
+    padding-right: 23px;
+    margin: 40px 0px 60px 0px;
+    width: 100%;
+    height: 400px;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    min-height:min-content;
+}
+
+.my-4{
+    margin: 20px 0px 20px 700px;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.box2{
+    margin: 30px 30px;
+    padding: 60px 60px;
+    justify-items: center;
+    min-width: 20vw;
+    min-height: 300px;
+    text-align: center;
+}
+
+.box2 ul{
+    list-style-type: none;
+}
+
+.box2 ul li{
+    margin: 12px 2px;
+}
+
+.box2 ul li button{
+    width: 100px;
+    height: 35px;
+    border: 1px solid pink;
+    border-radius: 2px;
+    color: black;
+    background-color: rgb(201, 160, 127);
+    cursor: pointer;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
